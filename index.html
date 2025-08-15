@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="calculadora">
+
+    <div class="pantalla">
+      <div class="pantalla--primaria">0</div>
+      <div class="pantalla--secundaria"></div>
+    </div>
+
+    <div class="teclado">
+      <div class="isquierdo">
+        <div class="boton" onclick="calcular('1')">1</div>
+        <div class="boton" onclick="calcular('2')">2</div>
+        <div class="boton" onclick="calcular('3')">3</div>
+        <div class="boton" onclick="calcular('4')">4</div>
+        <div class="boton" onclick="calcular('5')">5</div>
+        <div class="boton" onclick="calcular('6')">6</div>
+        <div class="boton" onclick="calcular('7')">7</div>
+        <div class="boton" onclick="calcular('8')">8</div>
+        <div class="boton" onclick="calcular('9')">9</div>
+        <div class="boton" onclick="calcular('0')">0</div>
+        <div class="boton" onclick="calcular('.')">.</div>
+        <div class="boton" onclick="calcular('=')">=</div>
+      </div>
+
+      <div class="derecho">
+        <div class="boton" onclick="calcular('borrar')">C</div>
+        <div class="boton" onclick="calcular('*')">×</div>
+        <div class="boton" onclick="calcular('/')">÷</div>
+        <div class="boton" onclick="calcular('-')">−</div>
+        <div class="boton" onclick="calcular('+')">+</div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="control.js"></script>
+</body>
+</html>
